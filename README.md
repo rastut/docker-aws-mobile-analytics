@@ -5,6 +5,8 @@ Normally used when you wanna use your existing redshift cluster for export all t
 
 ## How it works?
 
-You only need to fill all the info on the data_export.config. You can check all the docs on AWS.
+You only need to fill all the info on the data_export.config and run `docker build -t TAG .`. 
+
+You can check all the docs on AWS.
 
 http://docs.aws.amazon.com/mobileanalytics/latest/ug/auto-export.html
